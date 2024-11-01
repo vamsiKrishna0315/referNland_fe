@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@/components/ui/button';
 
 const Header: React.FC = () => {
     return (
@@ -16,18 +17,10 @@ const Header: React.FC = () => {
 
                 {/* Botones de Registro y Contacto */}
                 <div className="flex items-center space-x-2">
-                    <button
-
-                        className="px-2 py-2 bg-gradient-to-r from-cyan-400 to-cyan-600 text-white font-semibold rounded-lg text-sm"
-                    >
-                        Registration
-                    </button>
-                    <button
-
-                        className="px-2 py-2 bg-gradient-to-r from-cyan-400 to-cyan-600 text-white font-semibold rounded-lg text-sm"
-                    >
-                        Login
-                    </button>
+                   
+                    <Button> Registration</Button>
+                    <Button> Login</Button>
+                    
                 </div>
             </div>
         </header>

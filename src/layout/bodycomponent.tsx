@@ -15,7 +15,7 @@ const BodyComponent: React.FC = () => {
                 </div>
                 <div className="w-1/2">
                     <img
-                        src="https://www.emprenderconactitud.com/img/fidelizamas.png"
+                        src="https://blush.design/api/download?shareUri=AtJqwLxSI&w=800&h=800&fm=png"
                         alt="Imagen relacionada con el programa de fidelización"
                         className="w-full h-auto"
                     />
