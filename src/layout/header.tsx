@@ -12,15 +12,15 @@ const Header: React.FC = () => {
                         alt="Logo de la empresa"
                         className="w-28 h-12 ml-6"
                     /> */}
-                    <h2 className='bold'>Refer N Land</h2>
+                    <h2 className='font-black text-center'>Refer N Land</h2>
                 </div>
 
                 {/* Botones de Registro y Contacto */}
                 <div className="flex items-center space-x-2">
-                   
-                    <Button> Registration</Button>
-                    <Button> Login</Button>
-                    
+
+                    {/* <Button> Registration</Button>
+                    <Button> Login</Button> */}
+
                 </div>
             </div>
         </header>
